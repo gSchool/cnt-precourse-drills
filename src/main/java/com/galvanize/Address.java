@@ -1,3 +1,5 @@
+package com.galvanize;
+
 public class Address {
   private String street;
   private String city;
@@ -46,7 +48,7 @@ public class Address {
     StringBuilder result = new StringBuilder();
     result.append(street + ", ");
     result.append(city + ", ");
-    result.append(state + ", ");
+    result.append(state + " ");
     result.append(zip);
     return result.toString();
   }
